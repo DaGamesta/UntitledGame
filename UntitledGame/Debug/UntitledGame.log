@@ -1,0 +1,33 @@
+﻿Build started 12/23/2011 2:56:52 PM.
+     1>Project "C:\Users\Michael\Documents\Visual Studio 2010\Projects\UntitledGame\UntitledGame\UntitledGame.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Debug\UntitledGame.unsuccessfulbuild".
+       GenerateTargetFrameworkMonikerAttribute:
+       Skipping target "GenerateTargetFrameworkMonikerAttribute" because all output files are up-to-date with respect to the input files.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Ic:\allegro\include /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0" /Zi /clr /nologo /W3 /WX- /Od /Oy- /D _MBCS /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /TP /analyze- /errorReport:prompt main.cpp /clr:nostdlib 
+         main.cpp
+     1>c:\users\michael\documents\visual studio 2010\projects\untitledgame\untitledgame\list.h(8): error C2061: syntax error : identifier 'dynObject'
+     1>c:\users\michael\documents\visual studio 2010\projects\untitledgame\untitledgame\list.h(9): error C2061: syntax error : identifier 'dynObject'
+     1>c:\users\michael\documents\visual studio 2010\projects\untitledgame\untitledgame\list.h(12): error C2143: syntax error : missing ';' before '*'
+     1>c:\users\michael\documents\visual studio 2010\projects\untitledgame\untitledgame\list.h(12): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\michael\documents\visual studio 2010\projects\untitledgame\untitledgame\list.h(12): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\michael\documents\visual studio 2010\projects\untitledgame\untitledgame\list.h(17): error C2065: 'objArray' : undeclared identifier
+     1>c:\users\michael\documents\visual studio 2010\projects\untitledgame\untitledgame\list.h(17): error C2061: syntax error : identifier 'dynObject'
+     1>c:\users\michael\documents\visual studio 2010\projects\untitledgame\untitledgame\list.h(23): error C2065: 'dynObject' : undeclared identifier
+     1>c:\users\michael\documents\visual studio 2010\projects\untitledgame\untitledgame\list.h(23): error C2146: syntax error : missing ')' before identifier 'obj'
+     1>c:\users\michael\documents\visual studio 2010\projects\untitledgame\untitledgame\list.h(23): error C2761: 'void dynObjectList::add(void)' : member function redeclaration not allowed
+     1>c:\users\michael\documents\visual studio 2010\projects\untitledgame\untitledgame\list.h(23): error C2059: syntax error : ')'
+     1>c:\users\michael\documents\visual studio 2010\projects\untitledgame\untitledgame\list.h(23): error C2143: syntax error : missing ';' before '{'
+     1>c:\users\michael\documents\visual studio 2010\projects\untitledgame\untitledgame\list.h(23): error C2447: '{' : missing function header (old-style formal list?)
+     1>c:\users\michael\documents\visual studio 2010\projects\untitledgame\untitledgame\list.h(39): error C2065: 'dynObject' : undeclared identifier
+     1>c:\users\michael\documents\visual studio 2010\projects\untitledgame\untitledgame\list.h(39): error C2146: syntax error : missing ')' before identifier 'obj'
+     1>c:\users\michael\documents\visual studio 2010\projects\untitledgame\untitledgame\list.h(39): error C2761: 'bool dynObjectList::remove(void)' : member function redeclaration not allowed
+     1>c:\users\michael\documents\visual studio 2010\projects\untitledgame\untitledgame\list.h(39): error C2059: syntax error : ')'
+     1>c:\users\michael\documents\visual studio 2010\projects\untitledgame\untitledgame\list.h(39): error C2143: syntax error : missing ';' before '{'
+     1>c:\users\michael\documents\visual studio 2010\projects\untitledgame\untitledgame\list.h(39): error C2447: '{' : missing function header (old-style formal list?)
+     1>Done Building Project "C:\Users\Michael\Documents\Visual Studio 2010\Projects\UntitledGame\UntitledGame\UntitledGame.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:01.25
